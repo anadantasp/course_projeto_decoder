@@ -22,7 +22,8 @@ spring:
   output:
     ansi:
       enabled: Always
-
+  rabbitmq:
+    addresses:
 logging:
   level:
     com.ead: TRACE
